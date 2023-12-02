@@ -1,0 +1,33 @@
+Versionamento de Código
+
+Sistemas de Controle de Versão
+
+Centralizado / Distribuído = Git
+
+VCS Ditribuído (DVCS) = Clona repositório completo (Backup)
+
+GitHub : Plataforma de Hospedagem de Código para Controle de
+Versão com Git, e colaboração.
+
+git config --global user.name ""
+git config --global user.email
+
+git config user.name
+git config user.email
+
+git config init.defaultBranch
+git config --global init.defaultBranch main
+
+git config --global --list
+
+Local --> Remoto
+
+git config --global --show-origin credential.helper
+cat.gitconfig
+cat .git-credentials
+
+git push
+
+alterar mensagem comit git commit --mend-m"nova mensagem"
+alternar entre branch git checkout
+criar copia existente git clone
